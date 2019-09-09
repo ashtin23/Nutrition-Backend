@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/ashtin23/Nutrition-Backend#readme",
   "dependencies": {
+    "axios": "^0.19.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
+    "lodash": "^4.17.15",
     "mongoose": "^5.7.0"
   }
 }
