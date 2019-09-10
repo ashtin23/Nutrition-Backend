@@ -1,7 +1,7 @@
 const Food = require('../models/Food')
 const Macronutrients = require('../models/Macronutrients')
 const foodData = require('./food')
-const macronutrientsData = require('./nutrientReport')
+const macronutrientsData = require('./macronutrients')
 
 Food.find({}).remove(() =>
 Food.collection.insert(foodData)

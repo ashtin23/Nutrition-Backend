@@ -9,8 +9,8 @@ app.use(cors())
 app.use(parser.json());
 app.use(parser.urlencoded({ extended: true }));
 
-// app.use("/", require('./routes/listing'))
-// app.use("/user", userRouter)
+app.use("/api/food", require('./routes/food'))
+app.use("/api/macronutrients", require('./routes/macronutrients'))
 
 app.get("/", (req, res) => {
   res.send("Hello World")
