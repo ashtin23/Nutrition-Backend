@@ -3,7 +3,7 @@ const fs = require("fs");
 
 axios
 .get(
-  "http://api.nal.usda.gov/ndb/nutrients/?format=json&max=1500&api_key=yA4dQlWhts5H48QIOFEWJX9ZcbkLtWE9fC4qLukR&nutrients=205&nutrients=204&nutrients=208&nutrients=269"
+  "http://api.nal.usda.gov/ndb/nutrients/?format=json&max=1500&api_key=yA4dQlWhts5H48QIOFEWJX9ZcbkLtWE9fC4qLukR&nutrients=205&nutrients=204&nutrients=208&nutrients=203"
 )
 .then(res => {
   // handle success
