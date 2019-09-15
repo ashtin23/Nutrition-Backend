@@ -1,11 +1,4 @@
 {
-  "report": {
-    "sr": "1",
-    "groups": "All groups",
-    "subset": "All foods",
-    "end": 1500,
-    "start": 0,
-    "total": 7524,
     "foods": [
       {
         "ndbno": "09427",
@@ -54008,5 +54001,4 @@
         ]
       }
     ]
-  }
 }
